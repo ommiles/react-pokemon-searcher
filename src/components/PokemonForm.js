@@ -2,6 +2,7 @@ import React from 'react'
 import { Form } from 'semantic-ui-react'
 
 class PokemonForm extends React.Component {
+
   state = {
     name: '',
     hp: '',
@@ -14,7 +15,6 @@ class PokemonForm extends React.Component {
   }
 
   handleSubmit = () => {
-    // this.props.addPokemon(this.state)
     this.setState({
       name: '',
       hp: '',

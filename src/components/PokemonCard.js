@@ -8,6 +8,7 @@ class PokemonCard extends React.Component {
   }
   
   render() {
+    
     const { name, hp, sprites } = this.props.poke
 
     return (
